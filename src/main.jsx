@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Root";
 import Home from "./assets/Component/Home/Home";
 import './index.css';
-import MultiProject from "./assets/Component/MultiProject/MultiProject";
 
 const router = createBrowserRouter([
   {
@@ -14,10 +13,6 @@ const router = createBrowserRouter([
       {
         path: "/home",
         element: <Home></Home>,
-      },
-      {
-        path: "/MultiProject",
-        element: <MultiProject></MultiProject>,
       },
     ],
   },

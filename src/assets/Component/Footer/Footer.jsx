@@ -2,11 +2,16 @@ import React from "react";
 import fb from "../../../Gallery/fb.png"
 import instagram from "../../../Gallery/instagram.png"
 import linkedin from "../../../Gallery/linkedin.png"
+import "./Footer.css"
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-950 text-gray-300 py-8">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="bg text-gray-300 py-8">
+      <div className="flex justify-center items-center">
+      <div>
+
+      
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
         {/* About Section */}
         <div>
           <h2 className="text-xl font-semibold text-white">About This Project</h2>
@@ -26,7 +31,7 @@ export default function Footer() {
         {/* Social Media */}
         <div>
           <h2 className="text-xl font-semibold text-white">Follow Us</h2>
-          <div className="mt-2 flex space-x-4">
+          <div className="mt-2 flex space-x-4 justify-center items-center">
            <img src={fb} className="w-7" />
            <img src={instagram} className="w-7" />
            <img src={linkedin} className="w-7" />
@@ -37,6 +42,8 @@ export default function Footer() {
       {/* Copyright Section */}
       <div className="mt-8 text-center border-t border-gray-700 pt-4">
         <p className="text-sm">&copy; {new Date().getFullYear()} Your Brand. All Rights Reserved.</p>
+      </div>
+      </div>
       </div>
     </footer>
   );
