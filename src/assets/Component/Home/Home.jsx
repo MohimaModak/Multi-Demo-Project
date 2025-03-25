@@ -55,8 +55,8 @@ export default function Home() {
                                 <div className='flex justify-center items-center'>
                                     <button className='bg-purple-500 text-slate-100 rounded px-5 
                                     py-2.5 font-bold text-xl mt-10 mr-4'>Purchase Now</button>
-                                    <button className='bg-teal-200 text-slate-700 rounded px-5 
-                                    py-2.5 font-bold text-xl shadow mt-10'>Explore</button>
+                                    <a target='_blank' href="https://live-documentation-six.vercel.app/"> <button className='bg-teal-200 text-slate-700 rounded px-5 
+                                    py-2.5 font-bold text-xl shadow mt-10'>Documentation</button></a>
                                 </div>
                             </div>
                         </div>
